@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def say_hello():
-	return "<h1>Home page</h1><a href='/about'>About</a> | <a href='/contact'>Contact</a>"
+	return "<h1>Welcome!</h1><a href='/about'>About</a> | <a href='/contact'>Contact</a>"
 	
 
 @app.route('/about')
