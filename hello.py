@@ -13,5 +13,5 @@ def about():
 
 @app.route('/contact')
 def contact():
-	return "<h1>Contact Page</h1><p>Email: C23323661@mytudublin.ie</p><a href='/'>Home</a> | <a href='/about'>About</a>"
+	return "<h1>Contact Page</h1><p>Email: c23323661@mytudublin.ie</p><a href='/'>Home</a> | <a href='/about'>About</a>"
 
